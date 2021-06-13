@@ -1,0 +1,55 @@
+// Paths
+// -------------------------
+//$imgPath:                   '/images/';
+//$fontPath:                   '/fonts/';
+
+// Typography
+// -------------------------
+$base-font-size: 16;
+$baseLineHeight: 1.25 !default;
+
+$sans: sans-serif !default;
+$serif: serif !default;
+
+$thin: 100 !default;
+$light: 300 !default;
+$regular: 400 !default;
+$medium: 500 !default;
+$bold: 700 !default;
+$ultraBold: 800 !default;
+
+$font-default: 'Open Sans Condensed', $sans;
+$font-accent: 'Open Sans', $sans;
+
+
+// Colors
+// -------------------------
+$white: #ffffff !default;
+$black: #000000 !default;
+$grey: #D0D3D4 !default;
+$green: #2ea555 !default;
+$yellow: #ffd525 !default;
+$blue: #1a8cff !default;
+$red: #E03C31 !default;
+
+$main-bg: #333333;
+
+// Scaffolding
+// -------------------------
+$bodyBackground: $white !default;
+$textColor: $black !default;
+$hrBorder: $black !default;
+
+// Links
+// -------------------------
+$linkColor: $yellow !default;
+$linkColorHover: darken($yellow, 10%) !default;
+
+
+// Breakpoints
+// -------------------------
+$mobileWidth: "480px";
+$largeMobileWidth: "600px";
+$tabletWidth: "768px";
+$desktopWidth: "992px";
+$largeDesktopWidth: "1392px";
