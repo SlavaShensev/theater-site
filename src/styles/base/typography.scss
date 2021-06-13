@@ -6,17 +6,17 @@
   //  font-size: em(40);
   //}
   //
-  //&-md {
-  //  font-size: em(34);
-  //}
-  //
-  //&-sm {
-  //  font-size: em(24);
-  //}
-  //
-  //&-xs {
-  //  font-size: em(18);
-  //}
+  &-md {
+    font-size: 48px;
+  }
+
+  &-sm {
+    font-size: 18px;
+  }
+
+  &-xs {
+    font-size: 16px;
+  }
 
 }
 .text {
